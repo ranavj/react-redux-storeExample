@@ -19,7 +19,7 @@ export const AllRecipes = () => {
     return (
         <div className="grid-cols-12">
         <h2 className="antialiased text-lg font-semibold my-4 ">All Recipes</h2>        
-        <div className="grid grid-cols-6 gap-4">          
+        <div className="grid lg:grid-cols-6 sm:grid-cols-1 gap-4">          
             {allRecipes && allRecipes.map(recipe => {
                 return (
                     <div key={recipe.id} className="p-4 border border-black rounded hover:bg-slate-900/90	 hover:text-white relative">
