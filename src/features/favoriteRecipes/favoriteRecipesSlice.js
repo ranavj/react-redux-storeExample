@@ -9,7 +9,7 @@ export const addToFavoriteRecipe = (recipe) => {
 
 export const removeToFavoriteRecipe = (recipe) => {
     return {
-        type: 'favoriteRecipe/removeToFavoriteRecipe',
+        type: 'favoriteRecipes/removeToFavoriteRecipe',
         payload: recipe
     }
 }
